@@ -69,7 +69,7 @@ const checkClassActive = () =>
 btnRollDice.addEventListener("click", function () {
   if (!wonAlready) {
     const rollDice = diceRollRandom();
-    dice.src = `./Assets/dice-${rollDice}.png`;
+    dice.src = `dice-${rollDice}.png`;
 
     if (checkClassActive() === "1") {
       if (rollDice === 1) {
